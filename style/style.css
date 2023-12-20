@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.index-title {
+    background-color: lightgray;
+    font-size: 36px;
+    font-weight: bold;
+}
