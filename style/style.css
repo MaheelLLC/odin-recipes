@@ -1,8 +1,43 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .index-title {
-    background-color: lightgray;
     font-size: 36px;
     font-weight: bold;
+}
+
+.list-of-recipes {
+    font-weight: 500;
+}
+
+p {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+h2 {
+    background-color: darkgray;
+    color: white;
+    text-align: left;
+}
+
+.index-title,
+.list-of-recipes,
+h1 {
+    background-color: lightgray;
+}
+
+.ingredients {
+    background-color: blanchedalmond;
+}
+
+.steps {
+    background-color: aliceblue;
+}
+
+.ingredients,
+.steps {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
 }
