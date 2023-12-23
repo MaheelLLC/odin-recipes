@@ -5,10 +5,15 @@ body {
 .index-title {
     font-size: 36px;
     font-weight: bold;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px auto;
 }
 
 .list-of-recipes {
     font-weight: 500;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 p {
@@ -40,4 +45,30 @@ h1 {
 .steps {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
+}
+
+.cookie,
+.wellington,
+.bechamel {
+    display: block;
+    padding: 20px;
+    font-size: 24px;
+    color: snow;
+}
+
+.wellington,
+.bechamel {
+    margin-bottom: 8px;
+}
+
+.bechamel {
+    background-color: peru;
+}
+
+.wellington {
+    background-color: slategray;
+}
+
+.cookie {
+    background-color: sienna;
 }
